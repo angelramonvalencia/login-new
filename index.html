@@ -1,58 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>formulario</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>log in</title>
+  <link rel="stylesheet" href="estilo.css">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="encabezado">
-        <h1>
-            Formulario
-        </h1>
-    </header>
-    <!--texto central-->
-    <div class="contenedor-text">
-        <h2>
-            Formulario del amor
-        </h2>
-        <p>
-            Bievenido a mi formulario espero pueda ser de tu agrado en el sifuiente informacion 
-            dejaremos las instruscciones para que puedas seguir los pasos para resolver nuestro 
-            formulario espero puedas contestarlo de la manera mas sincera posible si tienes alguna duda dejaremos
-            mas informacion en los siguientes recuadros
-        </p>
+  <!-- encabezado -->
+  <header class="encabezado">
+    <h1 class="tittle">
+      welcome
+    </h1>
+  </header>
+  <!-- centro del formulario -->
+  <div class="cont-form">
+    <div class="cont-img">
+      <img class="cont-imgg" src="/imagenessvg/undraw_authentication_fsn5.svg" alt="">
+      <p class="text-img">
+        Registrar
+      </p>
     </div>
-    <!--informacion-->
-    <div class="info">
-        <h3>
-            te sugerimos reponder de la manera mas seria y consisa posible para poder evaluarte 
-            para conocer cuales son tus intereses y guardarlo en nuestra base de datos para poder continuar
-            con tu evaluacion
-        </h3>
+    <!-- namombre -->
+   <div class="cont-name">
+     <input class="cont-names" type="text" name="nombre" placeholder="Here your username">
+     <!-- E-mail -->
+     <input class="cont-E-mail" type="E-mail" name="E-mail" placeholder="Here your E-mail">
+     <!-- password  -->
+   </div>
+   <div class="password">
+    <input class="cont-password" type="password" name="password" placeholder="Here your password">
+   </div>
+   <div class="enviar">
+     <input class="bottom-n" type="button" value="sig in">
+   </div>
+  </div>
+  <div class="img-svg-bajo">
+    <img class="imagen-footer1" src="/imagenessvg/undraw_unlock_24mb.svg" alt="">
+    <img class="presentation" src="/imagenessvg/undraw_unlock_24mb.svg" alt="">
+  </div>
+  <footer class="pie">
+    <div class="cont-facebook">
+      <img class="facebook" src="/imagenessvg/facebook.svg" alt=""> 
+      <a class="enlace" href="https://www.facebook.com/profile.php?id=100010821546591">@angelvalenciamorales</a>
     </div>
-    <div class="infoTwo">
-        <h4>
-            Formulario
-        </h4>
-        <p>
-            Por favor solo seleccionar la opciones y llenar los campos en caso de ser necesario
-        </p>
-
-        <label class="name" for="">Nombres</label>
-        <input type="text" placeholder="Nombres">
-
-        <label class="name" for="">Apellidos</label>
-        <input type="text" placeholder="Apellidos">
-
-        <p class="names">aqui comienza nuestra encuesta</p>
-<label class="namess" for="">Que red de entretenimiento utilizas mas?</label>
-<input type="radio" value="nogales">
-
-<label class="namess" for="">Youtube</label>
-<input type="radio" value="nogales">
-
-
-    </div>
+  </footer>
 </body>
 </html>
